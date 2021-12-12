@@ -30,7 +30,7 @@ tail -f /d/group_25/t_1.txt
 curl "http://162.55.220.72:5005/object_info_3?name=Vadim&age=32&salary=1000"
 2) Написать скрипт который выполнит автоматически пункты 3, 4, 5, 6, 7, 8, 13:
 
-touch myscript 
+Создаем файл touch myscript 
 vim myscript
 
 #! /bin/bash
@@ -43,5 +43,5 @@ mkdir d_11 d_12 d_13
 ls -la
 mv t_11.txt t_12.txt /d/group_25/dir_1/f_1/dir_11/
 
-chmod +x myscript
-sh myscript
+chmod +x myscript сделали файл исполняемым
+sh myscript запускаем скрипт
